@@ -19,7 +19,7 @@ connectDB();
 import authRoutes from './routes/authRoutes.js';
 
 //route middlewares
-app.use(`/auth`, authRoutes)
+app.use(`/api/auth`, authRoutes)
 
 
 app.get("/",(req, res) =>{
